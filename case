@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    switch(a)
+    {
+      case 1:
+        printf("the function will work");
+      case 2:
+        printf("the function will not work");
+      default:
+        printf("unavailable");
+    }
+}
