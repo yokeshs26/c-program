@@ -1,0 +1,57 @@
+01)
+#include<stdio.h>
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a=0){
+      printf("the value is 0");
+    }
+    else 
+    if(a>0){
+      printf("the value is maximum");
+    }
+    else {
+      printf("the value is minimum");
+    }
+}
+
+02)
+#include<stdio.h>
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a>0){
+      printf("positive");
+    }
+    else if(a<0){
+      printf("negative");
+    }
+    else{
+      printf("default");
+    }
+}
+03)
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    scanf("%d",&a);
+    b=a%2;
+    if(b==0)
+     printf("the value is even");
+    else
+     printf("the value is odd");
+}
+04)
+#include<stdio.h>
+void main()
+{
+    int a;
+    scanf("%d",&a);
+    if(a%4==0||a%400==0)
+      printf("leap year");
+    else
+      printf("not leap year");
+}
