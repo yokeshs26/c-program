@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    if(a<b)
+      printf("a is smaller");
+    else
+      printf("b is smaller");
+}
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a<b && a<c)
+      printf("a is smaller");
+    else if(b<a && b<c)
+      printf("b is smaller");
+    else
+      printf("c is smaller");
+}
